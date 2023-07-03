@@ -1,0 +1,118 @@
+@media screen and (min-width:426px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        border-radius: 8px;
+        background-color: #A54328;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    body {
+        background-image: url(../img/fundodesktop.png);
+    }
+
+    main {
+        align-items: baseline;
+        display: flex;
+        flex-direction: row;
+        gap: 18.9rem;
+        justify-content: center;
+        margin: 9.5rem 4rem;
+    }
+
+    .container1 {
+        gap: 6.6rem;
+    }
+
+    h1 {
+        animation: h1Desktop 1.5s linear;
+    }
+
+    h1, h2 {
+        font-size: 4rem;
+    }
+
+    img {
+        animation: imgDesktop 1s linear;
+        cursor: pointer;
+    }
+
+    p {
+        animation: pDesktop 3s linear;
+        font-size: 2rem;
+    }
+
+    .container2 {
+        animation: container2Desktop 5s ease-out;
+        gap: 4.4rem;
+    }
+
+    h3 {
+        font-size: 2.3rem;
+    }
+
+    .container2 li {
+        font-size: 2rem;
+    }
+
+    ul, ol {
+        padding-left: 3.4rem;
+    }
+
+    button {
+        border-radius: 8px;
+        font-size: 1.4rem;
+        padding: 1.6rem;
+    }
+    
+    @keyframes h1Desktop {
+        from {
+            transform: translateY(-400px);
+        }
+        to {
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes imgDesktop {
+        from {
+            transform: translateX(-700px);
+        }
+        to {
+            transform: translateX(0);
+        }
+    }
+
+    @keyframes pDesktop {
+        from {
+            transform: translateY(400px);
+        }
+        to {
+            transform: translateY(0);
+        }
+    }
+    
+    @keyframes container2Desktop {
+        from {
+            transform: translateX(3000px);
+        }
+        to {
+            transform: translateX(0);
+        }
+    }
+}
+
+@media screen and (min-width:1224px) {
+    main {
+        margin: 9.5rem auto;
+    }
+}
