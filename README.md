@@ -7,7 +7,6 @@ Esse projeto responsivo de página de receita de um delicioso Cheesecake é dese
 - Git
 
 # Layout
-Esse projeto foi feito a partir [desse] layout do figma.
-(<https://www.figma.com/file/QICl3lMP3NuKaTk1XtOvrM/Cheesecake-%E2%80%A2-Projeto-Explorer-(Community)?type=design&node-id=1-754&mode=design>)
+Esse projeto foi feito a partir [desse](<https://www.figma.com/file/QICl3lMP3NuKaTk1XtOvrM/Cheesecake-%E2%80%A2-Projeto-Explorer-(Community)?type=design&node-id=1-754&mode=design>) layout do figma.
 <br>
 <img src="./img/cover.png" alt="imagem do projeto">
